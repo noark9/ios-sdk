@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-s.name         = "Qiuniu"
+s.name         = "Qiniu"
 s.version      = "6.3.0"
 s.summary      = "Qiniu Resource Storage SDK for iOS"
 
