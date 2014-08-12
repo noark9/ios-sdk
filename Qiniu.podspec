@@ -18,8 +18,11 @@ s.osx.deployment_target = "10.8"
 
 s.source       = { :git => "https://github.com/noark9/ios-sdk", :tag => "v6.3.0" }
 
-s.source_files  = "QiniuSDK/**/*.{h,m}", "Categories/**/*.{h,m}"
-s.exclude_files = "Classes/Exclude"
+s.source_files  = "QiniuSDK/*.{h,m}", "Categories/**/*.{h,m}"
+
+s.subspec 'AFNetworking' do |ss|
+    ss.source_files = "QiniuSDK/AFNetworking/*.{h,m}"
+end
 
 s.requires_arc = true
 end
