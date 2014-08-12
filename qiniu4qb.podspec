@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "6.0"
   s.osx.deployment_target = "10.8"
 
-  s.source       = { :git => "https://github.com/noark9/ios-sdk", :tag => "6.3.0" }
+  s.source       = { :git => "https://github.com/noark9/ios-sdk", :tag => "v6.3.0" }
 
   s.source_files  = "QiniuSDK/**/*.{h,m}", "Categories/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
